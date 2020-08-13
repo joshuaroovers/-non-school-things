@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <link rel ="stylesheet" href="style.css">
+        <title>Wild Magic Surge Table reader</title>
+    </head>
+    <body>
+
+        <div id = "MainContainer">
+            <div id = "Header"><!-- header -->
+                <div id = "HeaderText">Wild Magic Surge Table Reader</div>
+            </div>
+            <div style="display: flex;">
+                <div id = "ButtonContainer"><!-- generate with button -->
+                    <div id = "HeaderB">Randomly generate using this site</div>
+                    <div class = "align">
+                        <button onclick="Generate()">generate!</button>
+                    </div>
+                    <div class = "align">
+                        <input id = "d20G" style="width: 7vw;" readonly placeholder="d20 output">
+                        <input id = "d100G" style="width: 7vw;" readonly placeholder="d100 output">
+                    </div>
+                </div>
+                <div id = "ManualContainer"><!-- manual input -->
+                    <div id = "HeaderM">Manualy input numbers</div>
+                    <div>
+                        <div class = "align">
+                            <input id = "d20M" type="number" required maxlength="2" min="1" max="20" placeholder="d20">
+                            <input id = "d100M" type="number" required maxlength="3" min="1" max="100" placeholder="d100">
+                        </div>
+                        <div class = "align">
+                            <button onclick="ReadInput()">go!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id = "ResultContainer"><!-- result -->
+                <div id = "Result" style = "text-align: center;" >Chaos Reigns</div>
+            </div>
+            <div style="margin-left: 40%; width: 20%; margin-right: 40%;  text-align: center; font-size: small;">
+                <a id = "help" target="_blank"></a>
+            </div>
+            <div style="border-top: 1px solid rgb(150, 160, 255); margin-top: 20px;">
+                <div style="font-size: small; text-align: center;">Original Table found <a  target="_blank" href="https://www.dandwiki.com/wiki/Wild_Magic_Surge_Table,_Variant_(5e_Variant_Rule)">here</a></div>
+                <div style="text-align: center;">𝕄𝕒𝕕𝕖 𝕓𝕪 𝕁𝕠𝕤𝕙𝕦𝕒 𝟚𝟘𝟚𝟘 ©</div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
