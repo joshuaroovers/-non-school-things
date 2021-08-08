@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 15px;
+            }
+            caption{
+                text-align: left;
+            }
+            .odd:first-child
+            {
+                background-color: #eee093;
+            }
+            .odd{
+                background-color: #eee3a4;
+            }
+            .even{
+                background-color: #fcf9d3;
+            }
+            .centergdm
+            {
+                text-align: center;
+            }
+            .even > td:first-child, .even > td:nth-child(3), .even > td:nth-child(5), .odd > td:first-child, .odd > td:nth-child(3), .odd > td:nth-child(5) 
+            {
+                text-align: center;
+            }
+            .even th,.odd th,.odd td, .even td{
+                padding: 4px;
+                border: 1px #8c794e solid;
+            }
+            table{
+                border-spacing: 0px;
+            }
+            a , a:visited
+            {
+                color: blue;
+                text-decoration: none;
+            }
+
+        </style>
+
+    </head>
+
+    <body style="background: linear-gradient(rgba(0,0,0,.4) 0px,transparent 160px) repeat-x,url(https://dnd-wiki.org/w/images/0/0d/Dnd-wiki-background.jpg);">	
+        
+        
+        <div style="width: 70%; margin-left: 15%; background-color: #fcf9d3; border: black 1px solid; padding: 10px;">
+            <h1 style="margin-bottom: 0px; margin-top: -20px; border-bottom: 1px solid #8C794E;">Wild Magic (<p style="text-decoration:line-through; display: inline-block;">3.5e</p> 5e Variant Rule)</h1>
+            <div dir="ltr">
+                <div>
+                    <table cellspacing="0" cellpadding="0">
+
+                        <tbody>
+                            <tr>
+                                <td colspan="2">
+                                    <div>
+                                        <div>
+                                            <img style="width: 20%; margin-left: 40%;" alt="Homebrew.png" src="https://dnd-wiki.org/w/images/7/73/Homebrew.png" width="200" height="53">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                                                       
+                            <tr>
+                                <td colspan="2"> 
+                                    <span>Basis for wild magic</span>
+                                    <p>When the world was created, it is said that all magic was wild, but over the years, with all the use by wizards, clerics, and others, the magic was bound into the form we know today. However, there still exist places where the magic hasn't been tamed yet.</p>
+                                    <p>Wild Magic is an environmental effect in certain locations, considered to be extremely unreliable. In these environments, magic might be strengthened, weakened, or randomly altered. These alterations might radically alter the spell to another type, a new and unique expression of reality alteration, or even make the spell fizzle and do nothing.</p>
+                                    <p>Wild magic areas can be as small as a 5ft radius, and the biggest one known is about half a mile across. These areas are rare and often in hard-to-come-by places far away from colonized lands, but exceptions do exist.</p>
+                                    <p>In a wild magic area, spells and spell-like abilities function in radically different and sometimes dangerous ways. Any spell or spell-like ability used in a wild magic area has a chance to go awry. The caster must make a wild magic check (Standard DC is 1 + the level of the spell or effect, but it can be higher) for the magic to function normally. Failure on this check means that something strange happens; roll on <a href="#Basic_Table">Great Surge Table</a>.</p>
+                                    <h2><span>Da Great Wild Surge Table</span></h2>
+                                    <p>Unless otherwise noted, the surge takes effect where the original spell that triggered the wild surge was supposed to occur. The below tables, while long, are only a small fraction of the possible results of a wild surge. The DM is encouraged to change effects they don't like into more appropriate effects for their campaign. </p>
+                                    <p>Tables like the one below cannot take into account the situation at the instant of casting. It is not feasible to create tailored effects for every spell used in every possible way. Therefore, it is quite likely that some wild surge results will make no sense, or are impossible. In these cases, the wild surge has no effect.</p>
+                                    <p><b>Rule 1) Wild surge result: makes no sense or is impossible = Wild surge has no effect</b></p>
+                                    <p>For example, if a wizard were casting <i>Knock</i> on a door and triggered a wild surge with the effect "Target changes sex", it would be impossible, since doors do not have a sex (or at least not in most DnD games). Therefore, the wild surge has no effect.</p>
+                                    
+                                    <h3><span id="Basic_Table">Basic Table</span></h3>
+                                    <p></p>
+                                    <table>
+                                        <caption> 
+                                            <div><span>Basic Table</span> <small>Roll 1D100</small> </div>
+                                            <p></p>
+                                        </caption>
+
+                                        <tbody>
+                                            <tr class="odd">
+                                                <th> Roll</th>
+                                                <th> Target of Effect</th>
+                                                <th> Sub-Table</th>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  01-40 </td>
+                                                <td class="left"> Spell </td>
+                                                <td class="centergdm"><a href="#Table_A1">Table A1</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  41-55 </td>
+                                                <td class="left"> Caster </td>
+                                                <td class="centergdm"><a href="#Table_B1">Table B1</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  56-70 </td>
+                                                <td class="left"> Target </td>
+                                                <td class="centergdm"><a href="#Table_C1">Table C1</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  71-80 </td>
+                                                <td class="left"> Caster &amp; Target </td>
+                                                <td class="centergdm"><a href="#Table_D1">Table D1</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  81-89 </td>
+                                                <td class="left"> Environment </td>
+                                                <td class="centergdm"><a href="#Table_E1">Table E1</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  90-95 </td>
+                                                <td class="left"> Special </td>
+                                                <td class="centergdm"><a href="#Table_F1">Table F1</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  96-98 </td>
+                                                <td class="left"> Roll twice on this Table, re-rolling results over 96 </td>
+                                                <td class="centergdm"> -- </td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  99 </td>
+                                                <td class="left"> Roll 2d4 times on this Table re-rolling results over 96 </td>
+                                                <td class="centergdm"> -- </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  100 </td>
+                                                <td class="left"> DM Decides </td>
+                                                <td class="centergdm"> -- </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <h4><span id="Table_A1">A1 Spell is target of surge</span></h4>
+                                    <p></p>
+                                    <table>
+                                        <caption>
+                                            <div><span>Table A1</span> <small>Roll 1D100</small> </div>
+                                            <p></p>
+                                        </caption>
+
+                                        <tbody>
+                                            <tr class="odd">
+                                                <th> Roll 1D100 </th>
+                                                <th> Effect </th>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  01-12 </td>
+                                                <td class="left"> Spell works as normal plus Thematic Effect; Roll on <a href="#Table_A2">Table A2</a>.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  13 </td>
+                                                <td class="left"> Spell does opposite of purpose; a damaging spell heals the target, a boost-providing spell confers a penalty, etc.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  14-25 </td>
+                                                <td class="left"> Thematic Effect: Roll on <a href="#Table_A2">Table A2</a> and on <a href="#Basic_Table">Basic Table</a>.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  26 </td>
+                                                <td class="left"> The spells damage, healing, bonus etc gets a bonus equal to half the maximum.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  27 </td>
+                                                <td class="left"> The spells damage, healing, bonus, etc is maxamized.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  28 </td>
+                                                <td class="left"> The spell happens again!</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  29 </td>
+                                                <td class="left"> Roll a d4+1 Nothing happens! The spell goes off after a number of rounds equal to the amount rolled.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  30 </td>
+                                                <td class="left"> Spell affects Target as normal, then an exact copy of the spell originates from the target and affects the caster.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  31 </td>
+                                                <td class="left"> Spell doesn’t take effect now, but next time the caster casts a spell, the target of the second spell is also the target of the first.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  32 </td>
+                                            <td class="left"> As 31, but it affects the next 1d20 spells the caster casts (first spell has no effect at casting but affects target of second spell, second spell affects target of third spell, and so on (I'd get a pen and paper)).</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  33 </td>
+                                                <td class="left"> Spell becomes a 5th level maximized <a target="_blank" href="https://5e.tools/spells/fireball-phb.html">Fireball</a> (10d6).</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  34 </td>
+                                                <td class="left"> Spell takes effect, but the spell level is two higher than the original.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  35 </td>
+                                                <td class="left"> Spell takes effect, but the spell level is two lower than the original.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  36 </td>
+                                                <td class="left"> Spell is changed to the spell appearing above it in the source material. The target doesn’t change. If this would result in a spell with no effect (for example, <i>charm person</i> in an open space), then there is no effect; roll on <a href="#Table_E1">Table E1</a> to determine what happens next.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  37 </td>
+                                                <td class="left"> Spell affects the nearest creature to the target instead.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  38 </td>
+                                                <td class="left"> Spell affects the nearest creature to the caster instead.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  39 </td>
+                                                <td class="left"> Spell becomes the spell <a target="_blank" href="https://5e.tools/spells/time-stop-phb.html">Time Stop</a>, but the target counts as the caster, and knows this.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  40-49 </td>
+                                                <td class="left"> Nothing happens; the spell slot is still used and components are still consumed.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  50-55 </td>
+                                                <td class="left"> Nothing happens, really! The spell slot is not used and components are not consumed.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  56-60 </td>
+                                                <td class="left"> Everyone within 5ft of a line between the caster and the target will be hit by a copy of the spell, including the caster.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  61-62 </td>
+                                                <td class="left"> Spell's duration is 1d6 times normal; spells with a duration of instantaneous instead take effect 1d6 times, once every round and the caster becomes incapacitated, until all have taken effect.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  63-66 </td>
+                                                <td class="left"> Besides the normal spell, another spell accompanies it. Roll on <a href="#Table_A3">Table A3</a>. The target doesn't change. If this would result in a spell with no effect (for example, <i>Scare</i> in an open space), then re-roll on <a href="#Table_A3">Table A3</a>.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  67-82 </td>
+                                                <td class="left"> Spell takes effect, but the caster retains the spell or spell slot and components aren't consumed.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  83-85 </td>
+                                                <td class="left"> Spell is changed to another spell: roll on <a href="#Table_A3">Table A3</a>. The target doesn’t change. If this would result in a spell with no effect (for example, Scare in an open space), then there is no effect; roll on <a href="#Table_E1">Table E1</a> to determine what happens next.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  86-87 </td>
+                                                <td class="left"> Spell has no save and penetrates AC automatically.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  88-89 </td>
+                                                <td class="left"> Saves vs this spell are automatically a success, and it can't penetrate a creature's AC.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  90 </td>
+                                                <td class="left"> Spell becomes a <a target="_blank" href="https://eberron.fandom.com/wiki/Living_spell"> Living Spell</a> [<a target="_blank" href="https://5e.tools/bestiary/living-burning-hands-erlw.html" >1st-2nd</a>|<a target="_blank" href="https://5e.tools/bestiary/living-lightning-bolt-erlw.html" >3rd-4th</a>|<a target="_blank" href="https://5e.tools/bestiary/living-cloudkill-erlw.html" >5th</a>].</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  91-95 </td>
+                                                <td class="left"> Spell takes effect normally.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  96-98 </td>
+                                                <td class="left"> Roll twice on this Table, rerolling results over 96.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  99 </td>
+                                                <td class="left">  Roll 2d4 times on this Table, rerolling results over 96.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  100 </td>
+                                                <td class="left"> DM chooses an effect from this table under the result of 96.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <h5><span id="Table_A2">A2 Thematic effect on surge</span></h5>
+                                    <p></p>
+                                    <table>
+                                            <caption> 
+                                                <div><span>Table A2</span> <small>Roll 1D100</small> </div>
+                                                <p></p>
+                                            </caption>
+
+                                        <tbody>
+                                            <tr class="odd">
+                                                <th> 1D100-Roll </th>
+                                                <th> Effect </th>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  01-05 </td>
+                                                <td class="left"> The damage and visuals of the spell (if any) become lightning </td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  06-10 </td>
+                                                <td class="left"> The damage and visuals of the spell (if any) become fire </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  11-15 </td>
+                                                <td class="left"> The damage and visuals of the spell (if any) become thunder </td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  16-20 </td>
+                                                <td class="left">  The damage and visuals of the spell (if any) become cold</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  21-25 </td>
+                                                <td class="left"> The damage and visuals of the spell (if any) become acid</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  26-30 </td>
+                                                <td class="left"> The damage and visuals of the spell (if any) become necrotic</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  31-35 </td>
+                                                <td class="left"> The damage and visuals of the spell (if any) become radiant</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  36-40 </td>
+                                                <td class="left"> The damage and visuals of the spell (if any) become poison</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  41-45 </td>
+                                                <td class="left"> The damage and visuals of the spell (if any) become psychic</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td> 46-50  </td>
+                                                <td class="left"> The damage and visuals of the spell (if any) become force</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  51-55 </td>
+                                                <td class="left"> Your magic finally desides to dissable friendly fire and is affected by the <a target="_blank" href="https://5e.tools/optionalfeatures.html#careful%20spell_phb">carefull spell metamagic</a> allowing you to have a number of creatures up to your spell casting ability modifier to automatically save on the saving throw.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  56-60 </td>
+                                                <td class="left"> Your spell becomes more volitile and is affected by the <a target="_blank" href="https://5e.tools/optionalfeatures.html#empowered%20spell_phb">Empowered Spell Metamagic</a> you may reroll a number of damage die up to your spell casting ability modifier.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  61-65 </td>
+                                                <td class="left"> Your spell deteriorates at a much slower rate and is affected by the <a target="_blank" href="https://5e.tools/optionalfeatures.html#extended%20spell_phb">Extended Spell Metamagic</a> the spells duration is doubled.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  66-70 </td>
+                                                <td class="left"> Your spell becomes more volitile and is affected by the <a target="_blank" href="https://5e.tools/optionalfeatures.html#heightened%20spell_phb">Heigtened Spell Metamagic</a> giving the target of the spell disadvantage on the saving throw.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  71-75 </td>
+                                                <td class="left"> The casting of this spell is incredibly quick and affected by the <a target="_blank" href="https://5e.tools/optionalfeatures.html#quickened%20spell_phb">Quickened Spell Metamagic</a> this spell used your bonus action instead of your action.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  76-80 </td>
+                                                <td class="left"> Did you just miss with your spell? No you didn't roll again! the spell is affected by the <a target="_blank" href="https://5e.tools/optionalfeatures.html#seeking%20spell_tce">Seeking Spell Metamagic</a> you may reroll the spell attack if you missed.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  81-85 </td>
+                                                <td class="left"> No one sees you casting this spell it just happened! the spell is affected by the <a target="_blank" href="https://5e.tools/optionalfeatures.html#subtle%20spell_phb">Subtle Spell Metamagic</a> you cast this spell without any somatic or verbal components.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  86-90 </td><!-- I know there is another twin spell on A1 but 3.5 doesn't care about aoes being twinned sooo it's still different -->
+                                                <td class="left"> Your spell splits in two and affects another creature of your choice and the spell is affected by the <a target="_blank" href="https://5e.tools/optionalfeatures.html#twinned%20spell_phb">Twinned Spell Metamagic</a> if the spell could only affect one creature and doesn't have a range of self you can choose another target to be affected.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  91-95 </td>
+                                                <td class="left"> Spell displays the effect of making it look like it's the work of thousands of small and fluffy animals; a Levitation spell makes it look like lots of little songbirds come and lift the target, a damaging spell looks like a swarm of mice running by nibbling all in the area of effect, etc.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  96-98 </td>
+                                                <td class="left"> Roll twice on this Table, rerolling results over 96.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  99 </td>
+                                                <td class="left">  Roll 2d4 times on this Table, rerolling results over 96.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  100 </td>
+                                                <td class="left"> DM chooses an effect from this table under the result of 96.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <h5><span id="Table_A3">A3 Other Spell on surge</span></h5>
+                                    <p></p>
+                                    <table>
+                                        <caption> 
+                                            <div><span>Table A3</span> <small>Roll 1D100</small> </div>
+                                            <p></p>
+                                        </caption>
+
+                                        <tbody>
+                                            <tr class="odd">
+                                                <th> 01-35 </th>
+                                                <th> Effect </th>
+                                                <th> 36-66 </th>
+                                                <th> Effect </th>
+                                                <th> 67-101 </th>
+                                                <th> Effect </th>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  01-05 </td>
+                                                <td class="left"> 0th Level arcane spell <a target="_blank" href="https://5e.tools/spells.html#acid%20splash_phb,flstlevel:0=1,floplevel:extend,flstclass:bard=1~sorcerer=1~wizard=1~warlock=1,flopclass:extend,flnhoptional%2fvariant%20class:tasha%e2%80%99s%20cauldron%20of%20everything=1~unearthed%20arcana%3a%20class%20feature%20variants=1,flopoptional%2fvariant%20class:extend,flnhrace:genasi=1,floprace:extend">DM's choice</a> </td>
+                                                <td>  36 </td>
+                                                <td class="left"> 4th Level arcane spell <a target="_blank" href="https://5e.tools/spells/arcane-eye-phb.html" >Arcane Eye</a> </td>
+                                                <td>  67 </td>
+                                                <td class="left"> 5th Level divine spell <a target="_blank" href="https://5e.tools/spells/antilife-shell-phb.html" >Antilife Shell</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  06 </td>
+                                                <td class="left"> 1st Level arcane spell <a target="_blank" href="https://5e.tools/spells/longstrider-phb.html">Longstrider</a> </td>
+                                                <td>  37 </td>
+                                                <td class="left"> 7th Level arcane spell <a target="_blank" href="https://5e.tools/spells/symbol-phb.html" >Symbol (sleep)</a></td>
+                                                <td>  68 </td>
+                                                <td class="left"> 4th Level divine spell <a target="_blank" href="https://5e.tools/spells/banishment-phb.html" >Banishment</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  07 </td>
+                                                <td class="left"> 1st Level arcane spell <a target="_blank" href="https://5e.tools/spells/grease-phb.html" >Grease</a> </td>
+                                                <td>  38 </td>
+                                                <td class="left"> 7th Level arcane spell <a target="_blank" href="https://5e.tools/spells/symbol-phb.html" >Symbol (pain)</a> </td>
+                                                <td>  69 </td>
+                                                <td class="left"> 4th Level divine spell <a target="_blank" href="https://5e.tools/spells/blight-phb.html" >Blight</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  08 </td>
+                                                <td class="left"> 0th Level arcane spell <a target="_blank" href="https://5e.tools/spells/true-strike-phb.html" >True Strike</a> </td>
+                                                <td>  39 </td>
+                                                <td class="left"> 4th Level arcane spell <a target="_blank" href="https://5e.tools/spells/polymorph-phb.html" >Polymorph</a> </td>
+                                                <td>  70 </td>
+                                                <td class="left"> 3rd Level divine spell <a target="_blank" href="https://5e.tools/spells/tongues-phb.html" >Tongues</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  09 </td>
+                                                <td class="left"> 1st Level arcane spell <a target="_blank" href="https://5e.tools/spells/sleep-phb.html" >Sleep</a> </td>
+                                                <td>  40 </td>
+                                                <td class="left"> 5th Level arcane spell <a target="_blank" href="https://5e.tools/spells/cloudkill-phb.html" >Cloudkill</a> </td>
+                                                <td>  71 </td>
+                                                <td class="left"> 4th Level divine spell <a target="_blank" href="https://5e.tools/spells/guardian-of-nature-xge.html" >Guardian of Nature</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  10 </td>
+                                                <td class="left"> 1st Level arcane spell <a target="_blank" href="https://5e.tools/spells/burning-hands-phb.html" >Burning Hands</a> </td>
+                                                <td>  41 </td>
+                                                <td class="left"> 4th Level arcane spell <a target="_blank" href="https://5e.tools/spells/vitriolic-sphere-xge.html" >Vitriolic Sphere</a> </td>
+                                                <td>  72 </td>
+                                                <td class="left"> 3rd Level divine spell <a target="_blank" href="https://5e.tools/spells/fireball-phb.html" >Fireball</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  11 </td>
+                                                <td class="left"> 1st Level arcane spell <a target="_blank" href="https://5e.tools/spells/color-spray-phb.html" >Color Spray</a> </td>
+                                                <td>  42 </td>
+                                                <td class="left"> 6th Level arcane spell <a target="_blank" href="https://5e.tools/spells/tensers-transformation-xge.html" >Tenser's Transformation</a> </td>
+                                                <td>  73 </td>
+                                                <td class="left"> 3rd Level divine spell <a target="_blank" href="https://5e.tools/spells/animate-dead-phb.html" >Animate Dead</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  12 </td>
+                                                <td class="left"> 1st Level arcane spell <a target="_blank" href="https://5e.tools/spells/detect-magic-phb.html" >Detect Magic</a> </td>
+                                                <td>  43 </td>
+                                                <td class="left"> 7th Level arcane spell <a target="_blank" href="https://5e.tools/spells/symbol-phb.html" >Symbol (fear)</a> </td>
+                                                <td>  74 </td>
+                                                <td class="left"> 3rd Level divine spell <a target="_blank" href="https://5e.tools/spells/meld-into-stone-phb.html" >Meld into Stone</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  13 </td>
+                                                <td class="left"> 1st Level arcane spell <a target="_blank" href="https://5e.tools/spells/disguise-self-phb.html" >Disguise Self</a> </td>
+                                                <td>  44 </td>
+                                                <td class="left"> 7th Level arcane spell <a target="_blank" href="https://5e.tools/spells/charm-monster-xge.html" >Charm Monster (4 targets)</a> </td>
+                                                <td>  75 </td>
+                                                <td class="left"> 3rd Level divine spell <a target="_blank" href="https://5e.tools/spells/blinding-smite-phb.html" >Bliding Smite</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  14 </td>
+                                                <td class="left"> 2nd Level arcane spell <a target="_blank" href="https://5e.tools/spells/enlargereduce-phb.html" >Enlarge/Reduce (Reduce)</a> </td>
+                                                <td>  45 </td>
+                                                <td class="left"> 7th Level arcane spell <a target="_blank" href="https://5e.tools/spells/reverse-gravity-phb.html" >Reverse Gravity</a> </td>
+                                                <td>  76 </td>
+                                                <td class="left"> 3rd Level divine spell <a target="_blank" href="https://5e.tools/spells/cure-wounds-phb.html" >Cure Wounds</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  15 </td>
+                                                <td class="left"> 3nd Level arcane spell <a target="_blank" href="https://5e.tools/spells/protection-from-energy-phb.html" >Protection from Energy</a> </td>
+                                                <td>  46 </td>
+                                                <td class="left"> 7th Level arcane spell <a target="_blank" href="https://5e.tools/spells/prismatic-spray-phb.html" >Prismatic Spray</a> </td>
+                                                <td>  77 </td>
+                                                <td class="left"> 2nd Level divine spell <a target="_blank" href="https://5e.tools/spells/inflict-wounds-phb.html" >Inflict Wounds</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  16 </td>
+                                                <td class="left"> 1st Level arcane spell <a target="_blank" href="https://5e.tools/spells/faerie-fire-phb.html" >Faerie Fire</a> </td>
+                                                <td>  47 </td>
+                                                <td class="left"> 7th Level arcane spell <a target="_blank" href="https://5e.tools/spells/forcecage-phb.html" >Forcecage</a> </td>
+                                                <td>  78 </td>
+                                                <td class="left"> 3rd Level divine spell <a target="_blank" href="https://5e.tools/spells/crusaders-mantle-phb.html" >Crusaders Mantle</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  17 </td>
+                                                <td class="left"> 2nd Level arcane spell <a target="_blank" href="https://5e.tools/spells/see-invisibility-phb.html" >See Invisibility</a> </td>
+                                                <td>  48 </td>
+                                                <td class="left"> 8th Level arcane spell <a target="_blank" href="https://5e.tools/spells/confusion-phb.html" >Confusion</a> </td>
+                                                <td>  79 </td>
+                                                <td class="left"> 2nd Level divine spell <a target="_blank" href="https://5e.tools/spells/warding-bond-phb.html" >Warding Bond</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  18 </td>
+                                                <td class="left"> 2nd Level arcane spell <a target="_blank" href="https://5e.tools/spells/hold-person-phb.html" >Hold Person</a> </td>
+                                                <td>  49 </td>
+                                                <td class="left"> 8th Level arcane spell <a target="_blank" href="https://5e.tools/spells/sunburst-phb.html" >Sunburst</a> </td>
+                                                <td>  80 </td>
+                                                <td class="left"> 2nd Level divine spell <a target="_blank" href="https://5e.tools/spells/zone-of-truth-phb.html" >Zone of Truth</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  19 </td>
+                                                <td class="left"> 2nd Level arcane spell <a target="_blank" href="https://5e.tools/spells/darkness-phb.html" >Darkness</a> </td>
+                                                <td>  50 </td>
+                                                <td class="left"> 9th Level arcane spell <a target="_blank" href="https://5e.tools/spells/gate-phb.html" >Gate</a> </td>
+                                                <td>  81 </td>
+                                                <td class="left"> 2nd Level divine spell <a target="_blank" href="https://5e.tools/spells/enthrall-phb.html" >Enthrall</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  20 </td>
+                                                <td class="left"> 2nd Level arcane spell <a target="_blank" href="https://5e.tools/spells/blur-phb.html" >Blur</a> </td>
+                                                <td>  51 </td>
+                                                <td class="left"> 9th Level divine spell <a target="_blank" href="https://5e.tools/spells/storm-of-vengeance-phb.html" >Storm of Vengeance</a> </td>
+                                                <td>  82 </td>
+                                                <td class="left"> 2nd Level divine spell <a target="_blank" href="https://5e.tools/spells/spiritual-weapon-phb.html" >Spiritual Weapon</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  21 </td>
+                                                <td class="left"> 3rd Level arcane spell <a target="_blank" href="https://5e.tools/spells/fear-phb.html" >Fear</a> </td>
+                                                <td>  52 </td>
+                                                <td class="left"> 8th Level divine spell <a target="_blank" href="https://5e.tools/spells/fire-storm-phb.html" >Fire Storm</a> </td>
+                                                <td>  83 </td>
+                                                <td class="left"> 3rd Level divine spell <a target="_blank" href="https://5e.tools/spells/create-food-and-water-phb.html" >Create Food and Water</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  22 </td>
+                                                <td class="left"> 2nd Level arcane spell <a target="_blank" href="https://5e.tools/spells/knock-phb.html" >Knock</a> </td>
+                                                <td>  53 </td>
+                                                <td class="left"> 8th Level divine spell <a target="_blank" href="https://5e.tools/spells/earthquake-phb.html" >Earthquake</a> </td>
+                                                <td>  84 </td>
+                                                <td class="left"> 0th Level divine spell <a target="_blank" href="https://5e.tools/spells/mending-phb.html" >Mending</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  23 </td>
+                                                <td class="left"> 3rd Level arcane spell <a target="_blank" href="https://5e.tools/spells/dispel-magic-phb.html" >Dispel Magic</a> </td>
+                                                <td>  54 </td>
+                                                <td class="left"> 5th Level divine spell <a target="_blank" href="https://5e.tools/spells/synaptic-static-xge.html" >Synaptic Static</a> </td>
+                                                <td>  85 </td>
+                                                <td class="left"> 2nd Level divine spell <a target="_blank" href="https://5e.tools/spells/blindnessdeafness-phb.html" >Blindness/Deafness (Deafness</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  24 </td>
+                                                <td class="left"> 3rd Level arcane spell <a target="_blank" href="https://5e.tools/spells/stinking-cloud-phb.html" >Stinking Cloud</a> </td>
+                                                <td>  55 </td>
+                                                <td class="left"> 7th Level divine spell <a target="_blank" href="https://5e.tools/spells/divine-word-phb.html" >Divine Word</a> </td>
+                                                <td>  86 </td>
+                                                <td class="left"> 2nd Level divine spell <a  target="_blank" href="https://5e.tools/spells/blindnessdeafness-phb.html" >Blindness/Deafness (Blindness)</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  25 </td>
+                                                <td class="left"> 3rd Level arcane spell <a target="_blank" href="https://5e.tools/spells/fly-phb.html" >Fly</a> </td>
+                                                <td>  56 </td>
+                                                <td class="left"> 8th Level divine spell <a target="_blank" href="https://5e.tools/spells/control-weather-phb.html" >Control Weather</a> </td>
+                                                <td>  87 </td>
+                                                <td class="left"> 1st Level divine spell <a target="_blank" href="https://5e.tools/spells/fog-cloud-phb.html" >Fog Cloud</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  26 </td>
+                                                <td class="left"> 3rd Level arcane spell <a target="_blank" href="https://5e.tools/spells/wind-wall-phb.html" >Wind Wall</a> </td>
+                                                <td>  57 </td>
+                                                <td class="left"> 6th Level divine spell <a target="_blank" href="https://5e.tools/spells/heroes-feast-phb.html" >Heroes' Feast</a> </td>
+                                                <td>  88 </td>
+                                                <td class="left"> 1st Level divine spell <a target="_blank" href="https://5e.tools/spells/sanctuary-phb.html" >Sanctuary</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  27 </td>
+                                                <td class="left"> 5th Level arcane spell <a target="_blank" href="https://5e.tools/spells/invisibility-phb.html" >Invisibility (4 targets)</a> </td>
+                                                <td>  58 </td>
+                                                <td class="left"> 3rd Level divine spell <a target="_blank" href="https://5e.tools/spells/fireball-phb.html" >Fireball</a> </td>
+                                                <td>  89 </td>
+                                                <td class="left"> 1st Level divine spell <a target="_blank" href="https://5e.tools/spells/goodberry-phb.html" >Goodberry</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  28 </td>
+                                                <td class="left"> 3rd Level arcane spell <a target="_blank" href="https://5e.tools/spells/slow-phb.html" >Slow</a> </td>
+                                                <td>  59 </td>
+                                                <td class="left"> 6th Level divine spell <a target="_blank" href="https://5e.tools/spells/heal-phb.html" >Heal</a> </td>
+                                                <td>  90 </td>
+                                                <td class="left"> 1st Level divine spell <a target="_blank" href="https://5e.tools/spells/create-or-destroy-water-phb.html" >Create or Destroy Water (Create)</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  29 </td>
+                                                <td class="left"> 3rd Level arcane spell <a target="_blank" href="https://5e.tools/spells/gaseous-form-phb.html" >Gaseous Form</a> </td>
+                                                <td>  60 </td>
+                                                <td class="left"> 6th Level divine spell <a target="_blank" href="https://5e.tools/spells/harm-phb.html" >Harm</a> </td>
+                                                <td>  91 </td>
+                                                <td class="left"> 1st Level divine spell <a target="_blank" href="https://5e.tools/spells/bless-phb.html" >Bless</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  30 </td>
+                                                <td class="left"> 4th Level arcane spell <a target="_blank" href="https://5e.tools/spells/stoneskin-phb.html" >Stoneskin</a> </td>
+                                                <td>  61 </td>
+                                                <td class="left"> 5th Level divine spell <a target="_blank" href="https://5e.tools/spells/flame-strike-phb.html" >Flame Strike</a> </td>
+                                                <td>  92 </td>
+                                                <td class="left"> 1st Level divine spell <a target="_blank" href="https://5e.tools/spells/bane-phb.html" >Bane</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  31 </td>
+                                                <td class="left"> 4th Level arcane spell <a target="_blank" href="https://5e.tools/spells/wall-of-fire-phb.html" >Wall of Fire (ringed)</a> </td>
+                                                <td>  62 </td>
+                                                <td class="left"> 5th Level divine spell <a target="_blank" href="https://5e.tools/spells/greater-restoration-phb.html" >Greater Restoration</a> </td>
+                                                <td>  93 </td>
+                                                <td class="left"> 1st Level divine spell <a target="_blank" href="https://5e.tools/spells/divine-favor-phb.html" >Divine Favor</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  32 </td>
+                                                <td class="left"> 4th Level arcane spell <a target="_blank" href="https://5e.tools/spells/ice-storm-phb.html" >Ice Storm</a> </td>
+                                                <td>  63 </td>
+                                                <td class="left"> 5th Level divine spell <a target="_blank" href="https://5e.tools/spells/insect-plague-phb.html" >Insect Plague</a> </td>
+                                                <td>  94 </td>
+                                                <td class="left"> 1st Level divine spell <a target="_blank" href="https://5e.tools/spells/compelled-duel-phb.html" >Compelled Duel</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  33 </td>
+                                                <td class="left"> 3rd Level arcane spell <a target="_blank" href="https://5e.tools/spells/major-image-phb.html" >Major Image</a> </td>
+                                                <td>  64 </td>
+                                                <td class="left"> Effects of <a target="_blank" href="https://5e.tools/items/potion-of-giant-size-skt.html" >Potion of Giant Size</a> </td>
+                                                <td>  95 </td>
+                                                <td class="left"> 1st Level divine spell <a target="_blank" href="https://5e.tools/spells/shield-of-faith-phb.html" >Shield of Faith</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  34 </td>
+                                                <td class="left"> 4th Level arcane spell <a target="_blank" href="https://5e.tools/spells/contagion-phb.html" >Contagion</a> </td>
+                                                <td>  65 </td>
+                                                <td class="left"> 5th Level divine spell <a target="_blank" href="https://5e.tools/spells/wall-of-stone-phb.html" >Wall of Stone</a> </td>
+                                                <td>  96-100 </td>
+                                                <td class="left"> 0th Level divine spell, <a target="_blank" href="https://5e.tools/spells.html#control%20flames_xge,flstlevel:0=1,floplevel:extend,flstclass:cleric=1~paladin=1~ranger=1~druid=1,flopclass:extend">DM’s choice</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  35 </td>
+                                                <td class="left"> 2nd Level arcane spell <a target="_blank" href="https://5e.tools/spells/enlargereduce-phb.html" >Enlarge/Reduce (Enlarge 4 targets)</a> </td>
+                                                <td>  66 </td>
+                                                <td class="left"> 5th Level divine spell <a target="_blank" href="https://5e.tools/spells/hallow-phb.html" >Hallow (Extradimensional Interference)</a> </td>
+                                                <td>  — </td>
+                                                <td class="left centergdm"> — </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <h4><span id="Table_B1">B1 Caster is target of surge</span></h4>
+                                    <p></p>
+                                    <table>
+                                        <caption> 
+                                            <div><span>Table B1</span> <small>Roll 1D100</small> </div>
+                                            <p></p>
+                                        </caption>
+
+                                        <tbody>
+                                            <tr class="odd">
+                                                <th> 1D100-Roll </th>
+                                                <th> Effect </th>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  01-05 </td>
+                                                <td class="left"> All hair falls off of caster.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  06-09 </td>
+                                                <td class="left"> Caster grows 1d10 inches permanently.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  10-12 </td>
+                                                <td class="left"> Caster shrinks 1d10 inches permanently.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  13 </td>
+                                                <td class="left"> Caster is affected by <a target="_blank" href="https://5e.tools/spells/feeblemind-phb.html" >Feeblemind</a>, no save.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  14-20 </td>
+                                                <td class="left"> Caster develops a phobia related to the spell or target of the spell.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  21-22 </td>
+                                                <td class="left"> Caster is infected with a <a target="_blank" href="https://5e.tools/conditionsdiseases.html#slimy%20doom_phb,flstsource:gos=0~toa=0,flopsource:extend,flsttype:disease=1~status=0,floptype:extend">Disease</a> of the DM`s choice from the DMG.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  23-24 </td>
+                                                <td class="left"> Caster is the target of a random spell; Roll on <a href="#Table_A3">Table A3</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  25 </td>
+                                                <td class="left"> Caster Mutates; roll on <a target="_blank" href="https://dnd-wiki.org/wiki/Random_Mutation_(3.5e_Other)" title="Random Mutation (3.5e Other)"><i>Random Mutations Table</i></a> to see what mutation caster gets.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  26 </td>
+                                                <td class="left"> Caster believes they are an animal for 3D6 Rounds and acts accordingly, roll 1D10 to see which animal the caster believes they are:
+                                                <p><small><b>1-2</b> Gorilla, <b>3-4</b> Deer, <b>5-6</b> Bear, <b>7</b> Mouse, <b>8</b> Eagle, <b>9</b> Fish, <b>10</b> Chicken</small></p>
+                                                </td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  27-28 </td>
+                                                <td class="left"> Caster loses all remaining spells and/or spell slots for the day.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  29-30 </td>
+                                                <td class="left"> Caster regains all used spells and/or spell slots.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  31-35 </td>
+                                                <td class="left"> Caster ages spell's level in years.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  36-40 </td>
+                                                <td class="left"> Caster levitates full speed (20ft) up for the next 1D10 Rounds and then falls, taking falling damage. The caster can take actions during these rounds, but will continue to levitate up unless dispelled.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  41 </td>
+                                                <td class="left"> Caster can't lie for the first 10 minutes after having cast a spell, this effect remains for 1 year.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  42 </td>
+                                                <td class="left"> Caster can't speak the truth for the first 10 minutes after having cast a spell, this effect remains for 1 year.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  43-46 </td>
+                                                <td class="left"> Caster is permanently invisible to target until a <a target="_blank" href="https://5e.tools/spells/remove-curse-phb.html">Remove Curse</a> is cast on the caster (If caster is also target, this is extra funny)</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  47-49 </td>
+                                                <td class="left"> Caster has contracted <a target="_blank" href="https://dnd-wiki.org/wiki/Wild_Plague_(3.5e_Disease)" title="Wild Plague (3.5e Disease)">Wild Plague</a>.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  50-55 </td>
+                                                <td class="left"> Caster gains a +2 bonus to all stats until they walk on holy or unholy ground.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  56-65 </td>
+                                                <td class="left"> Caster's diet changes to minerals where the expensive crystals taste the best, lasts until the next full moon.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  66-68 </td>
+                                                <td class="left"> Caster is instantly transported to other plane or prime, roll for destination on <a target="_blank" href="https://dnd-wiki.org/wiki/Random_Planescape_Plane_(3.5e_Other)">Table B2</a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  69 </td>
+                                                <td class="left"> Caster changes sex. once a day, the caster can make a constituion saving throw against the DC of the original spell to change back.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  70-75 </td>
+                                                <td class="left"> Caster believes target to be a long lost sibling.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  76-80 </td>
+                                                <td class="left"> Caster believes target to be a Daemon in disguise, out to kill them.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  81-84 </td>
+                                                <td class="left"> Caster's languages all change to other languages, but the caster doesn't notice it themself. this effect lasts until the caster washes their hair. (aka a long rest somewhere with water)</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  85-89 </td>
+                                                <td class="left"> Next non-living item the caster touches will turn into gold.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  90-95 </td>
+                                                <td class="left"> Caster's skin takes on another color, roll 1D10 to see which, this effect last until <a target="_blank" href="https://5e.tools/spells/remove-curse-phb.html">Remove Curse</a> is cast on the caster or the caster bathes under a waterfall
+                                                <p><small><b>1-2</b> Darker, <b>3-4</b> Lighter, <b>5</b> Blue, <b>6</b> Yellow, <b>7</b> Green, <b>8</b> Gold, <b>9</b> Silver, <b>10</b> Red</small></p>
+                                                </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  96-98 </td>
+                                                <td class="left"> Roll twice on this Table, rerolling results over 96.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  99 </td>
+                                                <td class="left">  Roll 2d4 times on this Table, rerolling results over 96.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  100 </td>
+                                                <td class="left"> DM chooses an effect from this table under the result of 96.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <p><br></p>
+                                    <h5><span id="B2_Random_Plane_destination">B2 Random Plane destination</span></h5>
+                                    <p>Use the table of the cosmology you are playing with, Planescape is default</p>
+                                    <p><a target="_blank" href="https://dnd-wiki.org/wiki/Random_Planescape_Plane_(3.5e_Other)" title="Random Planescape Plane (3.5e Other)"><i>Random Planescape Plane Table</i></a></p>
+                                    <p>Feel free to enter other Random Plane Tables</p>
+                                    
+                                    <h4><span id="Table_C1">C1 Target is target of surge</span></h4>
+                                    <p></p>
+                                    <table>
+                                        <caption> 
+                                            <div><span>Table C1</span> <small>Roll 1D100</small> </div>
+                                            <p></p>
+                                        </caption>
+
+                                        <tbody>
+                                            <tr class="odd">
+                                                <th> 1D100-Roll</th>
+                                                <th> Effect</th>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  01-05 </td>
+                                                <td class="left"> All of the target's hair grows 1D20 inches instantaneously.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  06-10 </td>
+                                                <td class="left"> Target polymorphs into an animal for 3D6 Rounds, roll 1D10 to see which animal the target becomes:
+                                                <p><small><b>1-2</b> <a target="_blank" href="https://5e.tools/bestiary/ape-mm.html">Gorilla</a>, <b>3-4</b> <a target="_blank" href="https://5e.tools/bestiary/deer-mm.html">Deer</a>, <b>5-6</b> <a target="_blank" href="https://5e.tools/bestiary/brown-bear-mm.html">Bear</a>, <b>7</b> <a target="_blank" href="https://5e.tools/bestiary/rat-mm.html">Mouse</a>, <b>8</b> <a target="_blank" href="https://5e.tools/bestiary/eagle-mm.html">Eagle</a>, <b>9</b> <a target="_blank" href="https://5e.tools/bestiary/fish-gos.html">Fish</a>, <b>10</b> <a target="_blank" href="https://www.dandwiki.com/wiki/Chicken_(5e_Creature)">Chicken</a></small></p>
+                                                <p>Wisdom saving throw to resist being polymorphed is the DC of the spell originally intended to be cast</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  11-12 </td>
+                                                <td class="left"> Target's languages all change to other languages, but the target doesn't notice it themself; this effect lasts until the target washes their hands. (aka a long/short rest somewhere with water)</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  13 </td>
+                                                <td class="left"> Target gains the attention of a greater creature (Creature's CR is equal to Target's character level+1D20) from another plane; the creature is annoyed and angry at the target. To see which plane the creature is from, roll on <a target="_blank" href="https://dnd-wiki.org/wiki/Random_Planescape_Plane_(3.5e_Other)">Table B2</a>.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  14-17 </td>
+                                                <td class="left"> Target gains the attention of a lesser creature (Creature's CR is equal to Target's character level-1D6) from another plane; the creature is interested in testing the target before recruiting him/her. To see which plane the creature is from, roll on <a target="_blank" href="https://dnd-wiki.org/wiki/Random_Planescape_Plane_(3.5e_Other)">Table B2</a>.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  18-19 </td>
+                                                <td class="left"> Target gains a spell that can be used as a spell-like ability once a day for 1D10 days; to see which spell, roll on <a href="#Table_A3">Table A3</a>.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  20 </td>
+                                                <td class="left"> Target is totally immune to all spells for the next 24 hours, both harmful and beneficial. All spell effects already affecting the target are suppressed for the duration, and the target can't use spell-like or supernatural abilities during those 24 hours.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  21-23 </td>
+                                                <td class="left"> Target is hit by a <a target="_blank" href="https://5e.tools/spells/flesh-to-stone-phb.html">Flesh to Stone</a> spell with no save, and a duration of 1D4 days.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  24-26 </td>
+                                                <td class="left"> A statue looking exactly like the target in the moment of the spell being cast appears where the target stood; the target is moved 5ft north and affected by a <a target="_blank" href="https://5e.tools/spells/greater-invisibility-phb.html">Greater Invisibility</a> spell with a duration of 3D10 rounds. (The statue is permanent)</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  27 </td>
+                                                <td class="left"> All of the target's clothes and worn equipment burst into flames and are incinerated, leaving the target unharmed but naked. Magic items are unaffected.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  28-29 </td>
+                                                <td class="left"> Target is permanently invisible to caster until a <a target="_blank" href="https://5e.tools/spells/remove-curse-phb.html">Remove Curse</a> spell is cast on them (If target is also caster, this is extra funny)</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  30-34 </td>
+                                                <td class="left"> Target polymorphs into its cute baby self for 1D12 Hours (Size: Tiny, STR: 01 CON: 01 DEX: 01, no change in target's mental abilities). Wisdom saving throw to resist being polymorphed is the DC of the spell originally intended to be cast.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  35 </td>
+                                                <td class="left"> Target polymorphs into its cute baby self for 1D12 Hours (Size: Tiny, STR: 01 CON: 01 DEX: 01 INT: 02 WIS: 02 CHA: 15). Mental abilities, knowledge, and languages changes to that of a helpless baby. Wisdom saving throw to resist being polymorphed is the DC of the spell originally intended to be cast.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  36-39 </td>
+                                                <td class="left"> Target changes size for the next 1D20 Hours, roll 1D10 to find the target's new size:
+                                                <p><small><b>1</b> two sizes smaller, <b>2-5</b> one size smaller, <b>6-8</b> one size larger, <b>9</b> two sizes larger, <b>10</b> three sizes larger</small></p>
+                                                <p>Constitution saving throw to resist size change against the DC of the original spell +5.</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  40-44 </td>
+                                                <td class="left"> Every time Target wants to speak, it comes out as song, permanent until <a target="_blank" href="https://5e.tools/spells/remove-curse-phb.html">Remove Curse</a> is cast.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  45-49 </td>
+                                                <td class="left"> Nearest creature to the target with 2 or less in INT becomes enraged and will attack the target to the death.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  50-54 </td>
+                                                <td class="left"> Nearest creature to the target with 2 or less in INT becomes completely loyal to target. Until the target does something to hurt the creature, the bond of loyalty is permanent.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  55-65 </td>
+                                                <td class="left"> Target gains the spell-like ability to use the spell just cast to affect him/her 1 time.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  66-68 </td>
+                                                <td class="left"> Target is instantly transported to other plane or prime, roll on <a target="_blank" href="https://dnd-wiki.org/wiki/Random_Planescape_Plane_(3.5e_Other)">Table B2</a>. Will save against the DC of the original spell to resist.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  69 </td>
+                                                <td class="left"> Target falls deeply in love with caster and will forsake all other loyalties, Charisma saving throw against the DC of the original spell, but if the caster's alignment is radically different there is a +10 to the save, duration ((Caster’s Charisma X original spell level) weeks).</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  70-74 </td>
+                                                <td class="left"> Target is under the effect of an <a target="_blank" href="https://5e.tools/spells/antimagic-field-phb.html" >Antimagic Field</a> for the spells duration.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  75-79 </td>
+                                                <td class="left"> Target will forget all names, including their own name. Intelligence saving throw DC as original spell to resist, lasting until a person calls targets name or <a target="_blank" href="https://5e.tools/spells/remove-curse-phb.html">Remove Curse</a> is cast.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  80-83 </td>
+                                                <td class="left"> Next time target tries to talk, they will spit out 1D100 gold pieces instead.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  84 </td>
+                                                <td class="left"> Target gains a +2 bonus to AC until the next full moon.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  85-95 </td>
+                                                <td class="left"> Target gains a compulsive need to hoard items that mean a lot to casters. <a target="_blank" href="https://5e.tools/spells/remove-curse-phb.html">Remove Curse</a> will end this compulsion.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  96-98 </td>
+                                                <td class="left"> Roll twice on this Table, rerolling results over 96.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  99 </td>
+                                                <td class="left"> Roll 2d4 times on this Table, rerolling results over 96.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  100 </td>
+                                                <td class="left"> DM chooses an effect from this table under the result of 96.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <h4><span id="Table_D1">D1 Caster and Target are target of surge</span></h4>
+                                    <p></p>
+                                    <table>
+                                        <caption> 
+                                            <div><span>Table D1</span> <small>Roll 1D100</small> </div>
+                                            <p></p>
+                                        </caption>
+
+                                        <tbody>
+                                            <tr class="odd">
+                                                <th> 1D100-Roll </th>
+                                                <th> Effect </th>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  01-05 </td>
+                                                <td class="left"> Target and caster swap locations.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  06-10 </td>
+                                                <td class="left"> Target and caster swap bodies. You assume the Strength, Dexterity and Constitution scores and racial traits of your new body and you keep your hitpoints and class abilities The effect will be reversed immediately if any of the two eats raw meat.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  11-15 </td>
+                                                <td class="left"> Caster is hit by an effect from <a href="#Table_C1">Table C1</a> and Target is hit by an effect from <a href="#Table_B1">Table B1</a>.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  16-20 </td>
+                                                <td class="left"> Both target and caster are hit by the same effect from <a href="#Table_C1">Table B1</a>.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  21-25 </td>
+                                                <td class="left"> Both target and caster are hit by the same effect from <a href="#Table_C1">Table C1</a>.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  26-30 </td>
+                                                <td class="left"> Target and caster are instantly transported to other plane or prime, roll on <a target="_blank" href="https://dnd-wiki.org/wiki/Random_Planescape_Plane_(3.5e_Other)">Table B2</a>.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  31 </td>
+                                                <td class="left"> Target and caster are instantly transported to the Demiplane called <a target="_blank" href="https://dnd-wiki.org/wiki/Darksphere_(3.5e_Environment)">Darksphere</a>.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  32-36 </td>
+                                                <td class="left"> Both target and caster are hit by the same spell from <a href="#Table_A3">Table A3</a>.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  37-41 </td>
+                                                <td class="left"> Target and caster are hit by different spells from <a href="#Table_A3">Table A3</a>.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  42 </td>
+                                                <td class="left"> Both target and caster are hit by a <a target="_blank" href="https://5e.tools/spells/heal-phb.html" >Heal</a> spell.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  43-48 </td>
+                                                <td class="left"> Both target and caster disappear and will reappear 1D10 rounds into the future with no knowledge of anything strange having happened.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  49-53 </td>
+                                                <td class="left"> Target and caster swap all worn clothing and equipment, things that are impossible to be worn appear in front of the not-owner on the ground.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  54-57 </td>
+                                                <td class="left"> Target and caster both make a Charisma check. The one rolling highest is hit by an <a target="_blank" href="https://5e.tools/spells/enlargereduce-phb.html">Enlarge</a> spell and the other is hit by a <a target="_blank" href="https://5e.tools/spells/enlargereduce-phb.html">Reduce</a> spell.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  58 </td>
+                                                <td class="left"> Caster and target both gain identical mutation, roll on <a target="_blank" href="https://dnd-wiki.org/wiki/Random_Mutation_(3.5e_Other)" title="Random Mutation (3.5e Other)"><i>Random Mutations Table</i></a> to see which.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  59-63 </td>
+                                                <td class="left"> Target and caster are drawn towards each other; each round at initiative 10 a magic force will move each 20 ft. closer to one another until they collide (this does not grant them any kind of movement they do not have, like flight, but the spell will still move them out over a chasm if that is the straight line).</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  64-68 </td>
+                                                <td class="left"> Both target and caster are hit by a <a target="_blank" href="https://5e.tools/spells/enlargereduce.html">Reduce</a> with a permanent duration.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  69 </td>
+                                                <td class="left"> Caster and target fall deeply in love with each other and will forsake all other loyalties. Charisma saving throw DC 28 to resist, but only if caster's alignment and target's are radically different (more than 2 steps away from each other).</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  70-75 </td>
+                                                <td class="left"> Caster and target are permanently invisible to each other until  <a target="_blank" href="https://5e.tools/spells/remove-curse-phb.html">Remove Curse</a> is cast on either of them.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  76-80 </td>
+                                                <td class="left"> Caster and target suddenly know each other personally (Alignment, Class with most levels in, Hit dice and Patron/God)</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  81-87 </td>
+                                                <td class="left"> Both target and caster are hit by an <a target="_blank" href="https://5e.tools/spells/enlargereduce-phb.html" >Enlarge</a> spell with a permanent duration.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  88 </td>
+                                                <td class="left"> Both target and caster are turned into <a target="_blank" href="https://5e.tools/bestiary/rat-mm.html">Rats</a> for 24 hours.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  89-95 </td>
+                                                <td class="left"> Both target and caster disgorge 1D100 things and are stunned for 1D4 rounds while doing this, roll 1D10 to see which things:
+                                                <p><small><b>1</b> Mellon Seeds, <b>2</b> Favourite Fruit, <b>3</b> Flowers, <b>4</b> Feathers, <b>5</b> Marbles, <b>6</b> Dice, <b>7</b> Pounds of Sand, <b>8</b> Gallons of Salt Water, <b>9</b> Tiny Gems Worth 1SP, <b>10</b> Copper Coins </small></p>
+                                                </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  96-98 </td>
+                                                <td class="left"> Roll twice on this Table, rerolling results over 96.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  99 </td>
+                                                <td class="left"> Roll 2d4 times on this Table, rerolling results over 96.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  100 </td>
+                                                <td class="left"> DM chooses an effect from this table under the result of 96.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <h4><span id="Table_E1">E1 Environment is target of surge</span></h4>
+                                    <p></p>
+                                    <table>
+                                        <caption> 
+                                            <div><span>Table E1</span> <small>Roll 1D100</small> </div>
+                                            <p></p>
+                                        </caption>
+
+                                        <tbody>
+                                            <tr class="odd">
+                                                <th> 1D100-Roll </th>
+                                                <th> Effect </th>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  01-07 </td>
+                                                <td class="left"> A permanent wild magic zone is created with center where the intended spell should have taken effect. The radius of the zone is caster's character level X100 ft.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  08-09 </td>
+                                                <td class="left"> A permanent dead magic zone is created with center where the intended spell should have taken effect. The radius of the zone is caster's character level X10 ft.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  10 </td>
+                                                <td class="left"> A permanent dead magic zone is created with center where the intended spell should have taken effect. The radius of the zone is caster's character level X100 ft.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  11-15 </td>
+                                                <td class="left"> Centered on the caster, a sphere with a radius of character level X10 ft. permanently shifts places with an equally sized area from a random plane, roll on <a target="_blank" href="https://dnd-wiki.org/wiki/Random_Planescape_Plane_(3.5e_Other)">Table B2</a> to see which plane. Only the environment is affected; no sentient creatures are shifted.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  16-20 </td>
+                                                <td class="left"> Centered on the caster, a sphere with a radius of character level X10 ft. and all creatures in this area shifts places with a equally sized area from a random plane, roll on <a target="_blank" href="https://dnd-wiki.org/wiki/Random_Planescape_Plane_(3.5e_Other)">Table B2</a> to see which plane. The areas will remain there for the duration of the intended spell before returning home. If the creatures leave the area under the duration and don't make it back before the original spell ends, they must find another way home.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  21-25 </td>
+                                                <td class="left"> A Permanent <a target="_blank" href="https://5e.tools/spells/wall-of-force-phb.html">Wall of Force</a> springs into existence right between the caster and target; the wall is as large as environment allows, up to a maximum of the caster's character level X100. If Caster is also the target, the wall starts in front of the caster and goes in a straight line the way the caster is looking.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  26-29 </td>
+                                                <td class="left"> Surge kills all non-sentient plant life in a radius of caster's character level X10 ft.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  30 </td>
+                                                <td class="left"> Surge kills all non-sentient plant life in a radius of caster's character level X100 ft.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  31-35 </td>
+                                                <td class="left"> In a circle with a radius of caster's character level X1D10 ft, flowers will suddenly and magically begin to grow. These will open up 24 hours after the surge and reveal a gem inside of each flower; the amount of gem flowers that appear is equal to the radius of the flower zone X10. Each gem, if plucked, is worth 1D100 Gold, but turns to dust one week after being plucked.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  36-40 </td>
+                                                <td class="left"> Weather changes drastically (hail, sleet, thunderstorm, heatwave, etc.)</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  41-45 </td>
+                                                <td class="left"> Weather changes drastically to magical nature (raining frogs, lightning elementals playing a game in the skies, a fog that counts a stinking cloud falls, etc.)</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  46-50 </td>
+                                                <td class="left"> Nearest dead sentient being returns as a ghost to haunt the location of its death.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  51-55 </td>
+                                                <td class="left"> The nearest 2D6 Animals and 2D6 Trees are <a target="_blank" href=https://5e.tools/spells/awaken-phb.html>Awakened</a> as per the spell, except they don't change attitude towards caster and will begin an internal battle between the plant kingdom VS. the animal kingdom to the death.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  56-60 </td>
+                                                <td class="left"> A pit 10 ft. X 10 ft. X 10 ft. appears right between caster and target; if caster is also target, it appears right under caster.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  61-65 </td>
+                                                <td class="left"> Plant growth speeds up in an area of caster's character level X 30 ft. around caster, and until the next full moon, each hour plants will grow as much as they would have done in a normal year.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  66-70 </td>
+                                                <td class="left"> In a sphere with a radius of 1D100 ft. from the target of the intended spell, time stops for 1D100 years; everyone within or who enter under the area of effect is caught by the time stop and frozen in time until time starts again. This effect counts as a 15th level spell for purpose of trying to dispel.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  71-75 </td>
+                                                <td class="left"> The surge rips a hole in the fabric of reality and a layer of the far plane seeps in; the layer remains until all creatures have left its boundary. The layer is character level X5 ft radius centered on the caster when the surge happens. Roll on <a target="_blank" href="https://dnd-wiki.org/wiki/100_Far_Realm_Occurances_(3.5e_Other)">Far Realm Occurances</a> to see what effect the layer brings with it.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  76-78 </td>
+                                                <td class="left"> Earthquakes hit the region (nearest 100 miles) for the next 1D6 hours.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  79-82 </td>
+                                                <td class="left"> A permanent magical effect occurs. At a range of 250 ft. around the caster, a barrier springs into existence; everyone who looks through this barrier from the outside can only see the natural environment of the other side (buildings, creatures, fields, and the like as if it has all become invisible), while there is no effect for the ones looking out.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  83-86 </td>
+                                                <td class="left"> Rips a hole in reality and opens a one-way portal to a random plane, roll on <a target="_blank" href="https://dnd-wiki.org/wiki/Random_Planescape_Plane_(3.5e_Other)">Table B2</a> to see where the portal leads to.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  87-90 </td>
+                                                <td class="left"> Rips a hole in reality and opens a one-way portal from a random plane, roll on <a target="_blank" href="https://dnd-wiki.org/wiki/Random_Planescape_Plane_(3.5e_Other)">Table B2</a> to see where the portal comes from. (DM discretion, as permanent portals can't exist at some planes.)</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  91-95 </td>
+                                                <td class="left"> Rips a hole in reality and opens a two-way portal to a random plane, roll on <a target="_blank" href="https://dnd-wiki.org/wiki/Random_Planescape_Plane_(3.5e_Other)">Table B2</a> to see where the portal leads to. (DM discretion, as permanent portals can't exist at some planes.)</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  96-98 </td>
+                                                <td class="left"> Roll twice on this Table, rerolling results over 96.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  99 </td>
+                                                <td class="left">  Roll 2d4 times on this Table, rerolling results over 96.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  100 </td>
+                                                <td class="left"> DM chooses an effect from this table under the result of 96.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <h4><span id="Table_F1">F1 Special surge</span></h4>
+                                    <p></p>
+                                    <table>
+                                        <caption> 
+                                            <div><span>Table F1</span> <small>Roll 1D100</small> </div>
+                                            <p></p>
+                                        </caption>
+
+                                        <tbody>
+                                            <tr class="odd">
+                                                <th> 1D100-Roll </th>
+                                                <th> Effect </th>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  01-03 </td>
+                                                <td class="left"> Surge results in surge with multiple effects, roll once on each of these tables: <a href="#Table_A1">Table A1</a>, <a href="#Table_B1">Table B1</a>, <a href="#Table_C1">Table C1</a>, <a href="#Table_D1">Table D1</a>, and <a href="#Table_E1">Table E1</a></td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  04-06 </td>
+                                                <td class="left"> The caster gains a random effect from <a href="#Table_A2">Table A2</a> that will always be added to all spells the caster casts.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  07-09 </td>
+                                                <td class="left"> One random stat of the target's gains a permanent inherent bonus roll a D6 to determent the stat, roll a D10 to determine the size of the bonus
+                                                <p><small><b>1</b> Str <b>2</b> Dex <b>3</b> Con <b>4</b> Int <b>5</b> Wis <b>6</b> Cha </small></p>
+                                                <p><small><b>1-4</b> +1. <b>5-6</b> +2. <b>7-8</b> +3. <b>9</b> +4. <b>10</b> +5.</small></p>
+                                                </td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  10-12 </td>
+                                                <td class="left"> Randomly roll another wild surge; this surge and the next 1D20 wild surges will have that effect.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  13 </td>
+                                                <td class="left"> Caster gains a wild die (D20). When casting spells or using spell-like abilities, roll wild die, and if the wild die rolls 13, the result is a wild surge instead of the spell. If caster already has a wild die, roll a D20 instead, and the result is now added to the wild die and will result in a wild surge when casting spells.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  14-15 </td>
+                                                <td class="left"> A random effect from <a href="#Table_B1">Table B1</a> is made permanent without saving throw; even if it could be removed before, it can't now.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  16-18 </td>
+                                                <td class="left"> A random effect from <a href="Table_C1">Table C1</a> is made permanent without saving throw; even if it could be removed before, it can't now.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  19-21 </td>
+                                                <td class="left"> Curse of the Phoenix. The caster bursts into flames and is consumed along with all of their equipment, magic items are unaffected. Next dawn, the caster will reincarnate in the nearest flame that is as large or larger than the caster (note that the curse doesn’t give any resistance or immunity to fire). If ever killed by fire damage, this will happen again. Precisely one year after the caster's last burst and consummation by flames, it repeats. Can only ever be removed by eating the heart of a Phoenix, while <a target="_blank" href="https://5e.tools/spells/remove-curse-phb.html">Remove Curse</a> is being cast on the subject.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  22-24 </td>
+                                                <td class="left"> A random monster appears from the summon monster spell list of the same spell level as the spell originally intended to be cast, only it is free willed and permanent (of course, it is confused as to what just happened, and yes, it does come from somewhere.)</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  25-27 </td>
+                                                <td class="left"> A 1 inch/spell level portal appears right behind the caster, which is connected to the Far realms. Right behind it, a creature lives that wants to enter our existence. Every time the caster casts a spell, it opens 1 inch/spell level, and every day at sunset, it closes 1 inch. If the portal ever reaches 100 inches, the creature will enter and try to eat the caster. If successful, it will take their body and have free access to our world (if creatures pass through the portal from our side, the creatures are gone forever ,and the portal will grow by 1 inch/hit dice if dead and 2 inches/hit dice if alive).</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  28-32 </td>
+                                                <td class="left"> A Random <a target="_blank" href="https://5e.tools/items.html#%2b1%20all-purpose%20tool_tce,flstsource:erlw=2~ggr=2~bgdia=2~ai=2,flopsource:extend,flsttype:vehicle%20(air)=2~treasure=0~heavy%20armor=2~poison=2~mount=2~medium%20armor=2~potion=2~renaissance=0~vehicle%20(water)=2~vehicle%20(land)=2~light%20armor=2~scroll=2~ammunition=2~firearm=2,floptype:extend,flstrarity:none=1~common=1~uncommon=1,floprarity:extend,flstcategory:generic%20variant=1~specific%20variant=0~other=1,flopcategory:extend,flstmiscellaneous:magic=1,flopmiscellaneous:extend">minor magic item</a> appears where the spell should have taken effect. Roll on tables in DMG to find item.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  33-35 </td>
+                                                <td class="left"> A Random <a target="_blank" href="https://5e.tools/items.html#%2b1%20armor_dmg,flstsource:erlw=2~ggr=2~bgdia=2~ai=2,flopsource:extend,flsttype:vehicle%20(air)=2~treasure=0~heavy%20armor=2~poison=2~mount=2~medium%20armor=2~potion=2~renaissance=0~vehicle%20(water)=2~vehicle%20(land)=2~light%20armor=2~scroll=2~ammunition=2~firearm=2,floptype:extend,flstrarity:rare=1,floprarity:extend,flstcategory:generic%20variant=1~specific%20variant=0~other=1,flopcategory:extend,flstmiscellaneous:magic=1,flopmiscellaneous:extend">medium magic item</a> appears where the spell should have taken effect. Roll on tables in DMG to find item.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  36 </td>
+                                                <td class="left"> A Random <a target="_blank" href="https://5e.tools/items.html#%2b2%20armor_dmg,flstsource:erlw=2~ggr=2~bgdia=2~ai=2,flopsource:extend,flsttype:vehicle%20(air)=2~treasure=0~heavy%20armor=2~poison=2~mount=2~medium%20armor=2~potion=2~renaissance=0~vehicle%20(water)=2~vehicle%20(land)=2~light%20armor=2~scroll=2~ammunition=2~firearm=2,floptype:extend,flstrarity:very%20rare=1,floprarity:extend,flstcategory:generic%20variant=1~specific%20variant=0~other=1,flopcategory:extend,flstmiscellaneous:magic=1,flopmiscellaneous:extend">greater magic item</a> appears where the spell should have taken effect. Roll on tables in DMG to find item.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  37-38 </td>
+                                                <td class="left"> An <a target="_blank" href="https://5e.tools/items.html#akmon%2c%20hammer%20of%20purphoros_mot,flstsource:erlw=2~ggr=2~bgdia=2~ai=2,flopsource:extend,flsttype:vehicle%20(air)=2~treasure=0~heavy%20armor=2~poison=2~mount=2~medium%20armor=2~potion=2~renaissance=0~vehicle%20(water)=2~vehicle%20(land)=2~light%20armor=2~scroll=2~ammunition=2~firearm=2,floptype:extend,flstrarity:legendary=1~artifact=1,floprarity:extend,flstcategory:specific%20variant=0~other=1,flopcategory:extend,flstmiscellaneous:magic=1,flopmiscellaneous:extend">artifact</a> appears where spell should have taken effect, but it is only a shadow image of the item, and every time it is used, roll a D20. If you roll 13, a wild surge will occur and the item will disappear; if it is not 13, the item works as expected.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  39-42 </td>
+                                                <td class="left"> Spellstorm: all of the caster's remaining spells are instantly cast on the target. A random spell is generated on each spell level and all spell slots are used for that spell. Even spells that normally would be self or touch are cast on the target, and all attack rolls required for the spells are successful. Any spell for which the caster doesn't have the component, focus, or it just doesn't make any sense simply fizzles.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  43-45 </td>
+                                                <td class="left"> One random stat of the caster's gains a permanent inherent bonus roll a D6 to determent the stat, roll a D10 to determine the size of the bonus
+                                                <p><small><b>1</b> Str <b>2</b> Dex <b>3</b> Con <b>4</b> Int <b>5</b> Wis <b>6</b> Cha </small></p>
+                                                <p><small><b>1-4</b> +1. <b>5-6</b> +2. <b>7-8</b> +3. <b>9</b> +4. <b>10</b> +5.</small></p>
+                                                </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  46-48 </td>
+                                                <td class="left"> Caster ages up until first year in next age category.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  49-51 </td>
+                                                <td class="left"> Caster becomes 1D20 years younger (if this will result in a age of 0 or less, the caster disappears and everybody will forget all about them; even in written materials, the caster and their deeds will disappear).</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  52-54 </td>
+                                                <td class="left"> Target are transported to random plane, roll on <a target="_blank" href="https://dnd-wiki.org/wiki/Random_Planescape_Plane_(3.5e_Other)">Table B2</a> and a <a target="_blank" href="https://5e.tools/bestiary/doppelganger-mm.html">Doppelganger</a> looking precisely like the target is transported to where the target stood.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  55-57 </td>
+                                                <td class="left"> The creature standing closest to caster gains <a target="_blank" href="https://5e.tools/spells/detect-thoughts-phb.html">Detect Thoughts</a> as a spell-like ability 3/day</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  58-60 </td>
+                                                <td class="left"> Reroll wild surge; the creature standing closest to the caster is counted as both target and caster of spell.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  61-63 </td>
+                                                <td class="left"> Reroll wild surge; the creature standing closest to the caster is counted as the caster of spell, and the creature standing closest to the target is counted as the target of spell. (If a touch spell, the caster becomes the target and the target becomes the caster.)</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  64-65 </td>
+                                                <td class="left"> A noble Djinn appears and offers for all to participate in a tournament where the winner is granted a <a target="_blank" href="https://5e.tools/spells/wish-phb.html">Wish</a>, like the spell, roll 1D6 to see which kind of tournament it is
+                                                <p><small><b>1</b> Chess (Djinn supplies the boards and pieces). <b>2</b> Gladiator tournament to surrender or death. <b>3</b> Jousting (Djinn supplies horses and lances). <b>4</b> wrestling. <b>5</b> Spell duel to surrender or death. <b>6</b> swimming competition (in nearest large body of liquid)</small></p>
+                                                </td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  66 </td>
+                                                <td class="left"> A <a target="_blank" href="https://5e.tools/spells/wish-phb.html">Wish</a> (or 3) is granted to the caster, roll 1D10 to see the source:
+                                                <p><small><b>1-5</b> Noble Djinn, Wish is granted as the spell. <b>6</b> Evil God, grants 3 Wishes but it is in return for the caster's soul; until the second wish is granted, the soul can be saved by a Atonement spell cast by a cleric of a good or neutral deity, but after the second wish, the soul is tainted beyond mortal intervention. <b>7-10</b> Noble Efreet, Wish is granted as the spell, but the Efreet tries to corrupt it; if the wording can be understood in some other way, it will.</small></p>
+                                                </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  67-68 </td>
+                                                <td class="left"> Curse of Bureaucracy: Each time the caster tries to cast a spell, a large form will appear along with a quill. This form is about whether the spell is for pleasure or business, who the intended target is, why the caster is using this exact spell ,and a lot other questions in that style. It takes 1 round per spell level to fill out the form, and if correctly filled (INT check DC 15), the spell will be cast, but if the INT check, fails a new form will appear, and until a form is correctly filled, the caster can't cast other spells. When <a target="_blank" href="https://5e.tools/spells/remove-curse-phb.html">Remove Curse</a> is cast on the unlucky individual, a new and extremely large form will appear along with a quill. This form takes CL in hours to fill out (INT check 20), and if correctly filled, the curse is lifted. If failed, there is a waiting period of one week per check failed until the curse is lifted, and if failed by 10 or more, the <a target="_blank" href="https://5e.tools/spells/remove-curse-phb.html">Remove Curse</a> just doesn’t work. Special: Lawful characters get +2 to these INT checks and Chaotic characters get -2 to these INT checks.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  69 </td>
+                                                <td class="left"> A succubus takes special interest in the caster's soul</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  70-72 </td>
+                                                <td class="left"> A celestial being takes special interest in the caster's soul and well-being (will help, mentor, and protect good-aligned characters while trying to save the souls of neutral and evil aligned characters by showing them the flaws of their ways and stopping them from doing evil).</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  73-75 </td>
+                                                <td class="left"> Caster gains a new spell; if the caster memorizes it, the spell appears in the caster's spell book, and if the caster is a spontaneous caster, they add the spell to known spells. The spell is of the same level as the originally intended spell and is the one appearing just under the originally intended spell on the caster list in the official source material; if no spell of the same level appears in the official source material, nothing happens.
+                                                <p>Special: The newly gained spell takes place of the spell that caused the wild surge with the same target.</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  76-77 </td>
+                                                <td class="left"> Nearest creature to target gets a secondary creature type and benifit (if touch spell, it's the caster); roll D10 to see which type.
+                                                <p><small><b>1</b> Abberation (telepathy 30ft, 5ft flying speed) <b>2</b> Beast (1d6 unarmed strikes) <b>3</b> Celestial (radiant resistance) <b>4</b> Construct <b>5</b> Elemental (1D4 <small><b>1</b> fire resistance, <a title="For every 5 feet the creature moves in water, or for every gallon of water splashed on it, it takes 1 cold damage." style="color: blue;">water suseptibility</a> <b>2</b> acid resistance, <a title="If the creature takes cold damage, it partially freezes; its speed is reduced by 10 feet until the end of its next turn." style="color: blue;">freeze</a> <b>3</b> lightning resistance, 5ft flying speed <b>4</b> <a title="The creature can burrow through nonmagical, unworked earth and stone. While doing so, the creature doesn't disturb the material it moves through." style="color: blue;">earth glide</a>, thunder vulnerability</small>) <b>6</b> Fey (charm immunity) <b>7</b> Fiend (fire resistance, radiant vulnerability) <b>8</b> Monstrosity (1d6 unarmed strikes) <b>9</b> Ooze (acid resistance, <a title="If the creature takes cold damage, it partially freezes; its speed is reduced by 10 feet until the end of its next turn." style="color: blue;">freeze</a>) <b>10</b> Undead (necrotic resistance, radiant vulnerability)</small> </p>
+                                                <p>The creature counts as it's original and it's new creature type for the sake of spells and abilities like <a target="_blank" href="https://5e.tools/spells/detect-evil-and-good-phb.html">Detect Evil and Good</a>. Spells that have no effect on the creature type are only half as effective like <a target="_blank" href="https://5e.tools/spells/cure-wounds-phb.html">Cure Wounds</a> on undead or constructs if possible, otherwise the spell has no effect like normal.</p>
+                                                </td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  78 </td>
+                                                <td class="left"> All magical bonds (paladin’s mount, druid or ranger’s companion, and the like) within 100 ft. are shattered; the animals are set free but keep the bonuses from the former bond forever while the owner suffers as if the animal was killed. Special: Now that the animals aren't normal for their kind anymore, they can't be part of such a bond ever again.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  79-81 </td>
+                                                <td class="left"> Knowledge of the location and legends of an artifact of wild or chaotic nature is imprinted in the caster's mind.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  82-84 </td>
+                                                <td class="left"> Nothing happens; just smile and make the wild mage paranoid, and maybe hint that they have a strange feeling in the stomach.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  85-87 </td>
+                                                <td class="left"> A entity from the Far-Realm uses the wild surge to lay one of its eggs in the caster's stomach. Over the next week, the caster will begin to have stomach pains and suffer from the poisoned condition. The pains stop 9 days after the egg was laid, then on the 10th day, a <a target="_blank" href="https://5e.tools/bestiary/giant-rat-mm.html">Giant Rat</a> will burst out of caster's stomach, dealing 10D6 necrotic damage. If the caster is subject to a Heal or Remove disease after the surge but before the 10th day, the creature is killed and the character will never know how close they were. If the caster is immune to diseases, he is immune to all of this; just treat the roll as a roll of 82-84 on this table.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  88 </td>
+                                                <td class="left"> Cosmic Knowledge comes with a price; wild mage gains INT +4 WIS -2 CHA -2, permanent.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  89 </td>
+                                                <td class="left"> Cosmic Wisdom comes with a price; wild mage gains INT -2 WIS +4 CHA -2, permanent.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  90 </td>
+                                                <td class="left"> Cosmic Shine comes with a price; wild mage gains INT -2 WIS -2 CHA +4, permanent.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  91-92 </td>
+                                                <td class="left"> Reincarnated soul: The wild mage's soul is taken over by one of their previous selves. Remove all class levels and feats and rebuild it as a radically different class up to the same level (the previous self might have been another gender and or race and find it a little strange suddenly being in this time occupying this strange body). The DM and player make an agreement as to what this former self was.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  93-96 </td>
+                                                <td class="left"> Wild mage changes type to Aberration, and every time the wild mage causes a wild surge from now on, they also gain a mutation. Roll on <a target="_blank" href="https://dnd-wiki.org/wiki/Random_Mutation_(3.5e_Other)" title="Random Mutation (3.5e Other)"><i>Random Mutations Table</i></a></td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  97-98 </td>
+                                                <td class="left"> Death appears wanting to claim the mage, if the mage argues, Death agrees to a game of Chess (INT DC 25 to win; Death has played it, like, a million times before). If the character wins, Death says “see you soon”; if not the character dies. Special: Death can only be seen by the character and people who can see ethereal beings, Death can't be killed.</td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>  99 </td>
+                                                <td class="left"> Wild mage gets to chose an effect from any surge table, with a Charisma X3% chance that the effect will happen; if not, then the DM may choose another effect from the same table.</td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>  100 </td>
+                                                <td class="left"> A flux is created and the caster is permanently immune to all magic both beneficial and harmful, but can't ever use spells, magic effects, (portals, heroes' feast, and the like), or spell-like abilities. They can even walk through magical effects such as wall of force or the like.</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p><br></p>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
